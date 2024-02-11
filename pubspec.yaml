@@ -32,10 +32,11 @@ dependencies:
     sdk: flutter
   #  ui
   pinput: ^3.0.1
+#  mason: ^0.1.0-dev.52
   #  firebase
-  firebase_analytics: ^10.8.3
-  firebase_core: ^2.25.2
-  firebase_messaging: ^14.7.14
+#  firebase_analytics: ^10.8.3
+#  firebase_core: ^2.25.2
+#  firebase_messaging: ^14.7.14
   #  notification
   flutter_local_notifications: ^16.3.2
   #helper
@@ -94,8 +95,18 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/images/down_splash.png
+    - assets/images/logo_splash.png
+    - assets/images/up_splash.png
+    - assets/images/line_bottom.png
+    - assets/images/arabic.png
+    - assets/images/english.png
+    - assets/images/man_auth.png
+    - assets/images/down_login.png
+    - assets/images/top_login.png
+    - assets/images/face.png
+    - assets/images/google.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

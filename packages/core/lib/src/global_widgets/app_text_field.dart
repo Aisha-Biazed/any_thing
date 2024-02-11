@@ -180,13 +180,13 @@ class AppTextFormField extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          if (title != null) ...{AppText.paragraphMedium(title!), 6.verticalSpace},
+         // if (title != null) ...{AppText.paragraphMedium(title!), 6.verticalSpace},
           Material(
             elevation: elevation,
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
             shadowColor: context.colorScheme.shadow.withOpacity(.2),
             child: SizedBox(
-              height: minLines != null ? height : 48.h,
+              height: minLines != null ? height : 70.h,
               child: FormBuilderTextField(
                 key: appKey,
                 name: name ?? label ?? '',
